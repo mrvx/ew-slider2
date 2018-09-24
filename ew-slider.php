@@ -70,6 +70,7 @@ wp_enqueue_style('second-style');
 }*/
 
 function loadEwStyles() {
+	wp_enqueue_style('owlcarouselmain', EW_URL . '/owl-carousel/owl.carousel.min.css', array(), '0.1', 'screen');
 	wp_enqueue_style('owlcarouselcss', EW_URL . '/owl-carousel/owl.theme.default.css', array(), '0.1', 'screen');
 	wp_enqueue_style('defaulcss', EW_URL . '/css/ew-default.css', array(), '0.1', 'screen');
 }
@@ -83,5 +84,5 @@ function loadEwScripts() {
 add_action('wp_enqueue_scripts', 'loadEwScripts');
 
 include EW_DIR . 'slider_template.php';
-include EW_DIR . 'acf-fields.php';
+//include EW_DIR . 'acf-fields.php';
 ?>

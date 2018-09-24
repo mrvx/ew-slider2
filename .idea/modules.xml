@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ew-slider.iml" filepath="$PROJECT_DIR$/.idea/ew-slider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../themes/.idea/themes.iml" filepath="$PROJECT_DIR$/../../themes/.idea/themes.iml" />
     </modules>
   </component>
 </project>

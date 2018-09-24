@@ -2,11 +2,11 @@
 
 if( function_exists('acf_add_local_field_group') ):
 
-acf_add_local_field_group(array (
+acf_add_local_field_group(array(
 	'key' => 'group_5947e7a25e583',
 	'title' => 'EW Slider',
-	'fields' => array (
-		array (
+	'fields' => array(
+		array(
 			'key' => 'field_597608495cb13',
 			'label' => 'Pilt',
 			'name' => '',
@@ -14,7 +14,7 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '',
 				'class' => '',
 				'id' => '',
@@ -22,7 +22,7 @@ acf_add_local_field_group(array (
 			'placement' => 'top',
 			'endpoint' => 0,
 		),
-		array (
+		array(
 			'key' => 'field_5947e7ae7c6d2',
 			'label' => 'pilt',
 			'name' => 'pilt',
@@ -30,7 +30,7 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '',
 				'class' => '',
 				'id' => '',
@@ -46,7 +46,7 @@ acf_add_local_field_group(array (
 			'max_size' => '',
 			'mime_types' => '',
 		),
-		array (
+		array(
 			'key' => 'field_596a333c0d30b',
 			'label' => 'Tekst pildil',
 			'name' => 'tekst_pildil',
@@ -54,18 +54,18 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '',
 				'class' => '',
 				'id' => '',
 			),
 			'default_value' => '',
 			'tabs' => 'all',
-			'toolbar' => 'full',
+			'toolbar' => 'basic',
 			'media_upload' => 1,
 			'delay' => 0,
 		),
-		array (
+		array(
 			'key' => 'field_5a299d798e430',
 			'label' => 'Slaidi URL link',
 			'name' => 'slaidi_link',
@@ -73,7 +73,7 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '50',
 				'class' => '',
 				'id' => '',
@@ -84,7 +84,7 @@ acf_add_local_field_group(array (
 			'append' => '',
 			'maxlength' => '',
 		),
-		array (
+		array(
 			'key' => 'field_5a29a1ae467ab',
 			'label' => 'Sihtkoht',
 			'name' => 'sihtkoht',
@@ -92,18 +92,18 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '50',
 				'class' => '',
 				'id' => '',
 			),
-			'choices' => array (
+			'choices' => array(
 				'_self' => 'Samas aknas',
 				'_blank' => 'Uues aknas',
 				'_parent' => 'Ülemises aknas',
 				'_top' => 'Uues täisaknas',
 			),
-			'default_value' => array (
+			'default_value' => array(
 			),
 			'allow_null' => 0,
 			'multiple' => 0,
@@ -112,7 +112,7 @@ acf_add_local_field_group(array (
 			'return_format' => 'value',
 			'placeholder' => '',
 		),
-		array (
+		array(
 			'key' => 'field_597604d05d19e',
 			'label' => 'Rohkem valikuid',
 			'name' => '',
@@ -120,7 +120,7 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '',
 				'class' => '',
 				'id' => '',
@@ -128,7 +128,7 @@ acf_add_local_field_group(array (
 			'placement' => 'top',
 			'endpoint' => 0,
 		),
-		array (
+		array(
 			'key' => 'field_597605df5d19f',
 			'label' => 'Pildi joondus',
 			'name' => 'pildi_joondus',
@@ -136,19 +136,19 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '15',
 				'class' => '',
 				'id' => '',
 			),
-			'choices' => array (
+			'choices' => array(
 				'left top' => 'üleval vasak',
 				'right top' => 'üleval parem',
 				'left bottom' => 'all vasakul',
 				'right bottom' => 'paremal all',
 				'center center' => 'Keskel',
 			),
-			'default_value' => array (
+			'default_value' => array(
 				0 => 'center center',
 			),
 			'allow_null' => 0,
@@ -158,7 +158,7 @@ acf_add_local_field_group(array (
 			'return_format' => 'value',
 			'placeholder' => '',
 		),
-		array (
+		array(
 			'key' => 'field_597607466fecc',
 			'label' => 'Teksti joondus',
 			'name' => 'teksti_joondus',
@@ -166,12 +166,12 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '15',
 				'class' => '',
 				'id' => '',
 			),
-			'choices' => array (
+			'choices' => array(
 				'lefttop' => 'üleval vasak',
 				'righttop' => 'üleval parem',
 				'leftbottom' => 'all vasakul',
@@ -180,7 +180,7 @@ acf_add_local_field_group(array (
 				'centerleft' => 'Keskel vasakul',
 				'centerright' => 'Keskel paremal',
 			),
-			'default_value' => array (
+			'default_value' => array(
 				0 => 'centercenter',
 			),
 			'allow_null' => 0,
@@ -190,7 +190,7 @@ acf_add_local_field_group(array (
 			'return_format' => 'value',
 			'placeholder' => '',
 		),
-		array (
+		array(
 			'key' => 'field_597608e3715f3',
 			'label' => 'Klass',
 			'name' => 'klass',
@@ -198,7 +198,7 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '15',
 				'class' => '',
 				'id' => '',
@@ -209,7 +209,7 @@ acf_add_local_field_group(array (
 			'append' => '',
 			'maxlength' => '',
 		),
-		array (
+		array(
 			'key' => 'field_597a45afe7ca1',
 			'label' => 'Läbipaistev kiht',
 			'name' => '',
@@ -217,8 +217,8 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
-				'width' => '100%',
+			'wrapper' => array(
+				'width' => '',
 				'class' => '',
 				'id' => '',
 			),
@@ -226,7 +226,7 @@ acf_add_local_field_group(array (
 			'new_lines' => 'wpautop',
 			'esc_html' => 0,
 		),
-		array (
+		array(
 			'key' => 'field_597a42d969834',
 			'label' => 'Läbipaistev kiht',
 			'name' => 'labipaistev_kiht',
@@ -234,7 +234,7 @@ acf_add_local_field_group(array (
 			'instructions' => 'Saab lisada erinavat tooni kihte, mis katavad pildi, aga mitte teksti.',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '20',
 				'class' => '',
 				'id' => '',
@@ -245,7 +245,7 @@ acf_add_local_field_group(array (
 			'ui_on_text' => 'Jah',
 			'ui_off_text' => 'Ei',
 		),
-		array (
+		array(
 			'key' => 'field_597a438969835',
 			'label' => 'Läbipaistva kihi värv',
 			'name' => 'labipaistva_kihi_varv',
@@ -253,14 +253,14 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '20',
 				'class' => '',
 				'id' => '',
 			),
 			'default_value' => '#000000',
 		),
-		array (
+		array(
 			'key' => 'field_597a43d369837',
 			'label' => 'Läbipaistvus',
 			'name' => 'labipaistvus',
@@ -268,7 +268,7 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '10',
 				'class' => '',
 				'id' => '',
@@ -282,9 +282,9 @@ acf_add_local_field_group(array (
 			'step' => '0.05',
 		),
 	),
-	'location' => array (
-		array (
-			array (
+	'location' => array(
+		array(
+			array(
 				'param' => 'post_type',
 				'operator' => '==',
 				'value' => 'slaidid',
@@ -296,7 +296,7 @@ acf_add_local_field_group(array (
 	'style' => 'default',
 	'label_placement' => 'top',
 	'instruction_placement' => 'label',
-	'hide_on_screen' => array (
+	'hide_on_screen' => array(
 		0 => 'permalink',
 		1 => 'the_content',
 		2 => 'excerpt',
@@ -317,11 +317,11 @@ acf_add_local_field_group(array (
 	'description' => '',
 ));
 
-acf_add_local_field_group(array (
+acf_add_local_field_group(array(
 	'key' => 'group_597627a4a2621',
 	'title' => 'Slaideri sätted',
-	'fields' => array (
-		array (
+	'fields' => array(
+		array(
 			'key' => 'field_597627ae4efca',
 			'label' => 'Slaidi vahetamise kiirus',
 			'name' => 'slaidi_vahetamise_kiirus',
@@ -329,7 +329,7 @@ acf_add_local_field_group(array (
 			'instructions' => 'Millisekundites nt 8000',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '25',
 				'class' => '',
 				'id' => '',
@@ -342,7 +342,7 @@ acf_add_local_field_group(array (
 			'max' => '',
 			'step' => 1000,
 		),
-		array (
+		array(
 			'key' => 'field_597627e4845aa',
 			'label' => 'Luba slaidivahetuse nupud',
 			'name' => 'luba_slaidivahetus_nupud',
@@ -350,7 +350,7 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '25',
 				'class' => '',
 				'id' => '',
@@ -361,7 +361,7 @@ acf_add_local_field_group(array (
 			'ui_on_text' => 'Jah',
 			'ui_off_text' => 'Ei',
 		),
-		array (
+		array(
 			'key' => 'field_59762860845ab',
 			'label' => 'Luba slaidivahetuse nooled',
 			'name' => 'luba_slaidivahetus_nooled',
@@ -369,7 +369,7 @@ acf_add_local_field_group(array (
 			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '25',
 				'class' => '',
 				'id' => '',
@@ -380,7 +380,7 @@ acf_add_local_field_group(array (
 			'ui_on_text' => 'Jah',
 			'ui_off_text' => 'Ei',
 		),
-		array (
+		array(
 			'key' => 'field_597628a6845ac',
 			'label' => 'Slaideri kõrgus',
 			'name' => 'slaideri_korgus',
@@ -388,7 +388,7 @@ acf_add_local_field_group(array (
 			'instructions' => 'Protsentides',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '25',
 				'class' => '',
 				'id' => '',
@@ -401,7 +401,7 @@ acf_add_local_field_group(array (
 			'max' => '',
 			'step' => '',
 		),
-		array (
+		array(
 			'key' => 'field_597a4ea77f8ce',
 			'label' => 'Teksti ala laius',
 			'name' => 'teksti_ala_laius',
@@ -409,7 +409,7 @@ acf_add_local_field_group(array (
 			'instructions' => 'Ala, mis ümbritseb nagu "wrapper" teksti paremat ja vasakut äärt pikslites',
 			'required' => 0,
 			'conditional_logic' => 0,
-			'wrapper' => array (
+			'wrapper' => array(
 				'width' => '20',
 				'class' => '',
 				'id' => '',
@@ -422,10 +422,106 @@ acf_add_local_field_group(array (
 			'max' => '',
 			'step' => '',
 		),
+		array(
+			'key' => 'field_5ba3a2b77b0f1',
+			'label' => 'Taustapilt',
+			'name' => 'taustapilt',
+			'type' => 'image',
+			'instructions' => 'Kui panna taustapilt, siis ei pea slaididel taustapilte panema. Slaidina esitatakse ainult teksti väljale lisatud materjali.',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'return_format' => 'url',
+			'preview_size' => 'thumbnail',
+			'library' => 'all',
+			'min_width' => '',
+			'min_height' => '',
+			'min_size' => '',
+			'max_width' => '',
+			'max_height' => '',
+			'max_size' => '',
+			'mime_types' => '',
+		),
+		array(
+			'key' => 'field_5ba891d90b59d',
+			'label' => 'Läbipaistev kiht',
+			'name' => '',
+			'type' => 'message',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'message' => '',
+			'new_lines' => 'wpautop',
+			'esc_html' => 0,
+		),
+		array(
+			'key' => 'field_5ba892020b59e',
+			'label' => 'Läbipaistev kiht',
+			'name' => 'labipaistev_kiht',
+			'type' => 'true_false',
+			'instructions' => 'Saab lisada erinavat tooni kihte, mis katavad pildi, aga mitte teksti.',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '20',
+				'class' => '',
+				'id' => '',
+			),
+			'message' => '',
+			'default_value' => 0,
+			'ui' => 1,
+			'ui_on_text' => 'Jah',
+			'ui_off_text' => 'Ei',
+		),
+		array(
+			'key' => 'field_5ba892730b59f',
+			'label' => 'Läbipaistva kihi värv',
+			'name' => 'labipaistva_kihi_varv',
+			'type' => 'color_picker',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '20',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '#000000',
+		),
+		array(
+			'key' => 'field_5ba893ddcf3e0',
+			'label' => 'Läbipaistvus',
+			'name' => 'labipaistvus',
+			'type' => 'number',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '10',
+				'class' => '',
+				'id' => '',
+			),
+			'default_value' => '0.4',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+			'min' => '0.05',
+			'max' => '0.95',
+			'step' => '0.05',
+		),
 	),
-	'location' => array (
-		array (
-			array (
+	'location' => array(
+		array(
+			array(
 				'param' => 'options_page',
 				'operator' => '==',
 				'value' => 'acf-options-slaideri-satted',
@@ -443,4 +539,5 @@ acf_add_local_field_group(array (
 ));
 
 endif;
+
 ?>
